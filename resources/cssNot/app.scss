@@ -1,0 +1,52 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+
+// Variables
+//@import 'variables';
+// $body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+[class*=shadow] {
+    transition: all .2s ease
+}
+
+.shadow-pixel {
+    box-shadow: .2rem .2rem 0 rgba(233,236,239,.5)!important
+}
+
+.shadow-soft {
+    box-shadow: 0 .25rem 1.875rem rgba(42,53,79,.05)!important
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 .5rem 1rem rgba(42,53,79,.12)!important
+}
+
+.shadow-sm-hover:hover {
+    box-shadow: 0 1.5rem 4rem rgba(42,53,79,.05)!important
+}
+
+.shadow-lg-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(42,53,79,.125)!important
+}
+
+.shadow-none-hover:hover {
+    box-shadow: none!important
+}
+
+#canvas_wrap{
+    .width_can{
+
+    }
+    .heigth_can{
+
+    }
+}
